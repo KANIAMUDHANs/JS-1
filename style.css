@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+.header
+{
+    display: block;
+    background-color: rgb(229, 232, 225);
+    border: 5px solid rgb(93, 91, 88);
+    border-radius: 70px;
+}
+.header ul 
+{
+display: flex;
+list-style-type: none;
+padding: 18px;
+padding-left: 74%;
+}
+.header ul li
+{
+    padding-left:3px;
+    font-weight: bolder;
+}
+.header ul a{
+    text-decoration: none;
+    color: rgb(2, 3, 3);
+}
+.header ul a:hover{
+    color: rgb(67, 126, 3);
+}
+.slid
+{
+    border-radius: 50px;
+    width:100%;
+
+}
+
+#footer {
+    background-color: black;
+    color: rgb(252, 251, 217);
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom:5px ;
+    border: 3px solid rgb(228, 160, 42);
+    border-radius: 50px;
+}
+
+@media screen and (max-width:600px)
+{
+    .header
+    {
+        display: block;
+        background-color: rgb(159, 167, 148);
+        border: 5px solid rgb(93, 91, 88);
+        border-radius: 70px;
+    }
+    .header ul
+    {   
+        padding:2%;
+        margin: 3px;
+        position: relative;
+        left: 45px;
+    }
+}
+
+
+
